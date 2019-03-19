@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 2rem 0;
+  background-color: #2e5a2eef;
+  font-family: 'Lato', monospace;
+  text-align: center;
+}
+
+main{
+  max-width: 100vmax;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+main>*{
+  background-color: blue;
+  padding: 20px;
+}
+
+img{
+  max-width: 90vmax;
+  max-height: 90vmin;
+  margin: 20px;
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+#comments{
+  background-color: brown;
+  margin: 0;
+  padding: 20px;
+}
+
+.comment *{
+  display: inline; 
+  /* margin: 20% 0; */
+}
+
+form *{
+  margin: 2%;
+  color:
+}
