@@ -1,3 +1,31 @@
 body{
-  background-color: rgba(179, 255, 0, 0.644);
+  background-color: #2e5a2eef;
+  text-align: center;
+  font-family: 'Lato', monospace;
 }
+
+main{
+  background: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 2rem 0;
+}
+
+h1{
+  margin: 3rem 1rem 6rem;
+}
+
+/* .artObject{
+  max-width: 80vmax;
+  max-height: 80vmin;
+  margin: 20px;
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+} */
