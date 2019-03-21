@@ -340,7 +340,7 @@ function displayPainting(painting){
         // Create a hyperlink tag (<a>)
         let a = document.createElement('a');
         // Assign it a value of paintings
-        a.href = href="./pages/detail-page.html";
+        a.href = href=`./pages/${currentPainting.id}.html`;
     
         // Create an image tag within the hyperlink a
         let img = document.createElement('img');
@@ -354,8 +354,9 @@ function displayPainting(painting){
     
         // Assign the values of the object to img
         img.alt = imgTitle;
-        img.class = "artObject"; 
+        img.className = "artObject"; 
         img.src = imgURL;
+        
     
         // Append img to a as its child
         a.appendChild(img);

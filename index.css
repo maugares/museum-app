@@ -1,26 +1,26 @@
-body {
-  margin: 0;
-  padding: 2rem 0;
-  width: 100%;
+body{
   background: #FFBA00;
   font-family: 'Inconsolata', monospace;
   text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+  width: 100%;
 }
 
-main {
+main{
   background: white;
   width: 90%;
   margin: auto;
   border-radius: 5px;
   padding: 2rem 0;
 }
-
-h1 {
+  
+h1{
   margin: 3rem 1rem 6rem 1rem;
 }
 
-h2 {
-  margin: auto 2rem;
+h2{
+  margin: 0rem 2rem;
 }
 
 footer {
@@ -28,7 +28,7 @@ footer {
   font-size: 1.2rem;
 }
 
-#gallery {
+#gallery{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
