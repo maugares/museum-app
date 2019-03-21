@@ -29,13 +29,14 @@ img{
 
 #comments{
   background-color: brown;
-  margin: 0;
+  /* margin: 50px; */
   padding: 20px;
 }
 
 .comment *{
-  display: inline; 
-  /* margin: 20% 0; */
+  display: block;
+  margin: 5px;
+  padding: 2px;
 }
 
 form *{
