@@ -1,12 +1,13 @@
-body{
+body {
   margin: 0;
   padding: 2rem 0;
-  background-color: #2e5a2eef;
-  font-family: 'Lato', monospace;
+  width: 100%;
+  background: #FFBA00;
+  font-family: 'Inconsolata', monospace;
   text-align: center;
 }
 
-main{
+main {
   background: white;
   width: 90%;
   margin: auto;
@@ -14,8 +15,24 @@ main{
   padding: 2rem 0;
 }
 
-h1{
-  margin: 3rem 1rem 6rem;
+h1 {
+  margin: 3rem 1rem 6rem 1rem;
+}
+
+h2 {
+  margin: auto 2rem;
+}
+
+footer {
+  margin: 3rem;
+  font-size: 1.2rem;
+}
+
+#gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .artObject {
@@ -23,19 +40,3 @@ h1{
   max-height: 20rem;
   margin: 1rem;
 }
-
-#gallery{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-
-
-
-
-a{
-  display: flex;
-  justify-content: center;
-} */
